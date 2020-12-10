@@ -265,6 +265,7 @@ section article .article_card_link {
 
 section article .article_card_link .article_card_thumbnail {
   width: 320px;
+  height: 200px;
 }
 
 section article .article_card_link .article_card_text {

@@ -1,10 +1,11 @@
 <?php get_header(); ?>
     <!-- mainvisual -->
     <div class="mainvisual">
-        <div class="fadein"> 
-           <img  src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png">
-           <img  src="<?php echo get_template_directory_uri(); ?>/img/visual_7_pc.png"> 
-           <img  src="<?php echo get_template_directory_uri(); ?>/img\visual_6_pc.png">
+        <div>
+        <!-- <div class="fadein">  -->
+            <img class="visual_1" id="targetImage" src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png">
+            <!-- <img class="visual_1" id="targetImage" src="img/visual_7_pc.png">
+            <img class="visual_1" id="targetImage" src="img\visual_6_pc.png"> -->
         </div>
         <img class="logo1" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
         <img class="logo2" src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png">
