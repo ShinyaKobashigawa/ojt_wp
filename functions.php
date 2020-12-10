@@ -7,3 +7,8 @@ function count_user_posttype($userid,$posttype) {
     $count = $wpdb->get_var( "SELECT COUNT(*) FROM $wpdb->posts $where" );
     return $count;
 }
+
+add_action( 'after_setup_theme', 'register_menu' );
+function register_menu() {
+  register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
+}
