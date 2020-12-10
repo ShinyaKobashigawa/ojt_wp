@@ -12,7 +12,7 @@
         <img class="sp_logo" src= "<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png">
     </div>
     <div class="mainvisual_title">
-        <p>進化し続ける「街」<br>アメリカンビレッジマガジン</p>
+        <!-- <p>進化し続ける「街」<br>アメリカンビレッジマガジン</p> -->
     </div>
     <!-- mainvisualここまで -->
     
