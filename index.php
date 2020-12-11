@@ -8,7 +8,7 @@
         </div>
         <img class="logo1" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
         <img class="logo2" src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png">
-        <img class="sp_logo" src= "<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png">
+        <img class="sp_logo" src="<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png">
     </div>
     <div class="mainvisual_title">
         <p>進化し続ける「街」<br>アメリカンビレッジマガジン</p>
@@ -24,7 +24,6 @@
                 <article id="post-<?php the_ID(); ?>" class="blog">
                         <a href="<?php the_permalink(); ?>" class="article_card_link">
                         <?php the_post_thumbnail('', array('class' => 'article_card_thumbnail')); ?>
-                            <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_1.png" alt="" class="article_card_thumbnail"> -->
                             <div class="article_card_text">
                                 <time class="article_card_date"><?php the_time('Y / m / d'); ?></time>
                                 <?php the_title('<h3 class="article_card_title">', '</h3>'); ?>

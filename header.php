@@ -17,12 +17,6 @@
             'menu_class' => 'header_list' 
             ) );  
         ?> 
-        <!-- <ul class="header_list">
-            <li><a href="#">Menu01</a></li>
-            <li><a href="#">Menu02</a></li>
-            <li><a href="#">Menu03</a></li>
-            <li><a href="#">Menu04</a></li>
-        </ul> -->
 
         <!-- header sp -->
         <div class="hamburger">
@@ -36,12 +30,6 @@
             'menu' => 'Primary Menu',
             ) );  
         ?> 
-        <!-- <ul>
-            <li><a href="#">Menu01</a></li>
-            <li><a href="#">Menu02</a></li>
-            <li><a href="#">Menu03</a></li>
-            <li><a href="#">Menu04</a></li>
-        </ul> -->
         </nav>
     </header>
     <!-- headerここまで -->
