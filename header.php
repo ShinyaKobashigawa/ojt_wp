@@ -9,27 +9,39 @@
     <title>American Village</title>
 </head>
 <body>
-       <!-- header -->
-       <header>
-        <ul class="header_list">
+    <!-- header -->
+    <header>
+       <?php 
+            wp_nav_menu( array( 
+            'menu' => 'Primary Menu',
+            'menu_class' => 'header_list' 
+            ) );  
+        ?> 
+        <!-- <ul class="header_list">
             <li><a href="#">Menu01</a></li>
             <li><a href="#">Menu02</a></li>
             <li><a href="#">Menu03</a></li>
             <li><a href="#">Menu04</a></li>
-        </ul>
+        </ul> -->
+
+        <!-- header sp -->
         <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
-          </div>
-          
-          <nav class="globalMenuSp">
-              <ul>
-                  <li><a href="#">Menu01</a></li>
-                  <li><a href="#">Menu02</a></li>
-                  <li><a href="#">Menu03</a></li>
-                  <li><a href="#">Menu04</a></li>
-              </ul>
-          </nav>
+        </div>
+        <nav class="globalMenuSp">
+        <?php 
+            wp_nav_menu( array( 
+            'menu' => 'Primary Menu',
+            ) );  
+        ?> 
+        <!-- <ul>
+            <li><a href="#">Menu01</a></li>
+            <li><a href="#">Menu02</a></li>
+            <li><a href="#">Menu03</a></li>
+            <li><a href="#">Menu04</a></li>
+        </ul> -->
+        </nav>
     </header>
     <!-- headerここまで -->
